@@ -1,0 +1,26 @@
+{
+  "name": "aws-mobile-appsync-events-starter-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "aws-appsync": "^1.0.0",
+    "aws-appsync-react": "^1.0.0",
+    "graphql": "^0.11.7",
+    "graphql-tag": "^2.5.0",
+    "moment": "^2.19.2",
+    "react": "^16.1.1",
+    "react-apollo": "^2.0.1",
+    "react-datepicker": "^0.61.0",
+    "react-dom": "^16.1.1",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.17",
+    "semantic-ui-css": "^2.2.12",
+    "uuid": "^3.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
