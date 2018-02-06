@@ -81,7 +81,6 @@ export default compose(
         MutationDeleteEvent,
         {
             options: {
-                fetchPolicy: 'cache-and-network',
                 refetchQueries: [{ query: QueryAllEvents }],
                 update: (proxy, { data: { deleteEvent } }) => {
                     const query = QueryAllEvents;

@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "aws-appsync": "^1.0.0",
+    "aws-appsync": "^1.0.8",
     "aws-appsync-react": "^1.0.0",
     "graphql": "^0.11.7",
     "graphql-tag": "^2.5.0",
