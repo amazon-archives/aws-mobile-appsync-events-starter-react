@@ -42,7 +42,7 @@ const ViewEventWithData = graphql(
             variables: { id },
             fetchPolicy: 'cache-and-network',
         }),
-        props: ({ data: { getEvent: event }, loading }) => ({
+        props: ({ data: { getEvent: event, loading} }) => ({
             event,
             loading,
         }),
