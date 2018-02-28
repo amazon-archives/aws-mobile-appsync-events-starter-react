@@ -110,7 +110,7 @@ export default graphql(
                 const query = QueryAllEvents;
                 const data = proxy.readQuery({ query });
 
-                data.listEvents.items.push(createEvent);
+                data.listEvents.items = [...data.listEvents.items.filter(e => e.id !== createEvent.id), createEvent];
 
                 proxy.writeQuery({ query, data });
             }
