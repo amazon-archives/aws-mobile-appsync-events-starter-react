@@ -37,14 +37,27 @@ git clone https://github.com/aws-samples/aws-mobile-appsync-events-starter-react
 cd ./aws-mobile-appsync-events-starter-react
 ```
 
-From the homepage of your GraphQL API (you can click the name you entered in the left hand navigation) wait until the progress bar at the top has completed deploying your resources. 
+From the homepage of your GraphQL API (you can click the name you entered in the left hand navigation) wait until the progress bar at the top has completed deploying your resources.
 
 On this same page, select `Web` at the bottom to download your `AppSync.js` configuration file into your project's `./src` directory.
+
+or create `AppSync.js` with the following content.
+
+```
+const config = {
+  graphqlEndpoint: 'https://XXXXXXXXXXXXXXXXXXXXXXXXXX.appsync-api.XX-XXXX-X.amazonaws.com/graphql', // Your hostname
+  region: 'XX-XXXX-X',  //Your region
+  authenticationType: 'XXX_XXX', // API_KEY or AWS_IAM or AMAZON_COGNITO_USER_POOLS
+  apiKey: 'XXX-XXXXXXXXXXXXXXXXXXXXXX',
+}
+export default config;
+```
+You can get the `graphqlEndpoint`, `authenticationType` and `apiKey` from the settings page.
 
 Start the application:
 
 ```
-yarn 
+yarn
 yarn start
 ```
 
