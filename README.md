@@ -19,7 +19,7 @@ This is a Starter React application for using the Sample app in the AWS AppSync 
   - Real time updates for comments on an event
 
 - Authorization
-  - The app uses API Key as the authoriation mechanism
+  - The app uses API Key as the authorization mechanism
 
 ## AWS Setup
 
