@@ -4,18 +4,18 @@
 
 "@redux-offline/redux-offline@^2.2.1":
   version "2.3.2"
-  resolved "http://localhost:4873/@redux-offline%2fredux-offline/-/redux-offline-2.3.2.tgz#ecdb324e198bd4aa6b965f651ec589f66c8f2605"
+  resolved "http://registry.npmjs.org/@redux-offline/redux-offline/-/redux-offline-2.3.2.tgz#ecdb324e198bd4aa6b965f651ec589f66c8f2605"
   dependencies:
     babel-runtime "^6.26.0"
     redux-persist "^4.5.0"
 
 "@types/async@2.0.47":
   version "2.0.47"
-  resolved "http://localhost:4873/@types%2fasync/-/async-2.0.47.tgz#f49ba1dd1f189486beb6e1d070a850f6ab4bd521"
+  resolved "http://registry.npmjs.org/@types/async/-/async-2.0.47.tgz#f49ba1dd1f189486beb6e1d070a850f6ab4bd521"
 
 "@types/node@^9.4.6":
   version "9.4.6"
-  resolved "http://localhost:4873/@types%2fnode/-/node-9.4.6.tgz#d8176d864ee48753d053783e4e463aec86b8d82e"
+  resolved "http://registry.npmjs.org/@types/node/-/node-9.4.6.tgz#d8176d864ee48753d053783e4e463aec86b8d82e"
 
 "@types/zen-observable@0.5.3", "@types/zen-observable@^0.5.3":
   version "0.5.3"
@@ -151,7 +151,7 @@ anymatch@^1.3.0:
 
 apollo-cache-inmemory@^1.0.0:
   version "1.1.9"
-  resolved "http://localhost:4873/apollo-cache-inmemory/-/apollo-cache-inmemory-1.1.9.tgz#8bcd05e8ec4e7dc5ffda7f68252244cab3197b71"
+  resolved "http://registry.npmjs.org/apollo-cache-inmemory/-/apollo-cache-inmemory-1.1.9.tgz#8bcd05e8ec4e7dc5ffda7f68252244cab3197b71"
   dependencies:
     apollo-cache "^1.1.4"
     apollo-utilities "^1.0.8"
@@ -159,13 +159,13 @@ apollo-cache-inmemory@^1.0.0:
 
 apollo-cache@^1.1.4:
   version "1.1.4"
-  resolved "http://localhost:4873/apollo-cache/-/apollo-cache-1.1.4.tgz#a06544fdf4d946114168660961cf7a1fd340d8d6"
+  resolved "http://registry.npmjs.org/apollo-cache/-/apollo-cache-1.1.4.tgz#a06544fdf4d946114168660961cf7a1fd340d8d6"
   dependencies:
     apollo-utilities "^1.0.8"
 
 apollo-client@^2.2.1:
   version "2.2.5"
-  resolved "http://localhost:4873/apollo-client/-/apollo-client-2.2.5.tgz#bc00704aa181d0ec299fd5bb2b72d0b44800f5d0"
+  resolved "http://registry.npmjs.org/apollo-client/-/apollo-client-2.2.5.tgz#bc00704aa181d0ec299fd5bb2b72d0b44800f5d0"
   dependencies:
     "@types/zen-observable" "^0.5.3"
     apollo-cache "^1.1.4"
@@ -179,25 +179,25 @@ apollo-client@^2.2.1:
 
 apollo-link-context@^1.0.0:
   version "1.0.7"
-  resolved "http://localhost:4873/apollo-link-context/-/apollo-link-context-1.0.7.tgz#3719697a677d3af5de500b7e4cbb6c0d0bf3bef3"
+  resolved "http://registry.npmjs.org/apollo-link-context/-/apollo-link-context-1.0.7.tgz#3719697a677d3af5de500b7e4cbb6c0d0bf3bef3"
   dependencies:
     apollo-link "^1.2.1"
 
 apollo-link-dedup@^1.0.0:
   version "1.0.8"
-  resolved "http://localhost:4873/apollo-link-dedup/-/apollo-link-dedup-1.0.8.tgz#8c3028cf32557bd040ab6ba8856f38067bdacead"
+  resolved "http://registry.npmjs.org/apollo-link-dedup/-/apollo-link-dedup-1.0.8.tgz#8c3028cf32557bd040ab6ba8856f38067bdacead"
   dependencies:
     apollo-link "^1.2.1"
 
 apollo-link-http-common@^0.2.2:
   version "0.2.2"
-  resolved "http://localhost:4873/apollo-link-http-common/-/apollo-link-http-common-0.2.2.tgz#ac8a1810eca6a7ed37a34baeeb0a55752e6a0e30"
+  resolved "http://registry.npmjs.org/apollo-link-http-common/-/apollo-link-http-common-0.2.2.tgz#ac8a1810eca6a7ed37a34baeeb0a55752e6a0e30"
   dependencies:
     apollo-link "^1.2.1"
 
 apollo-link-http@^1.0.0:
   version "1.5.2"
-  resolved "http://localhost:4873/apollo-link-http/-/apollo-link-http-1.5.2.tgz#cac4202b7f802869f892397f989d002c4ebb3b56"
+  resolved "http://registry.npmjs.org/apollo-link-http/-/apollo-link-http-1.5.2.tgz#cac4202b7f802869f892397f989d002c4ebb3b56"
   dependencies:
     apollo-link "^1.2.1"
     apollo-link-http-common "^0.2.2"
@@ -212,7 +212,7 @@ apollo-link@^1.0.0:
 
 apollo-link@^1.2.1:
   version "1.2.1"
-  resolved "http://localhost:4873/apollo-link/-/apollo-link-1.2.1.tgz#c120b16059f9bd93401b9f72b94d2f80f3f305d2"
+  resolved "http://registry.npmjs.org/apollo-link/-/apollo-link-1.2.1.tgz#c120b16059f9bd93401b9f72b94d2f80f3f305d2"
   dependencies:
     "@types/node" "^9.4.6"
     apollo-utilities "^1.0.0"
@@ -224,7 +224,7 @@ apollo-utilities@^1.0.0:
 
 apollo-utilities@^1.0.8:
   version "1.0.8"
-  resolved "http://localhost:4873/apollo-utilities/-/apollo-utilities-1.0.8.tgz#74d797d38953d2ba35e16f880326e2abcbc8b016"
+  resolved "http://registry.npmjs.org/apollo-utilities/-/apollo-utilities-1.0.8.tgz#74d797d38953d2ba35e16f880326e2abcbc8b016"
 
 append-transform@^0.4.0:
   version "0.4.0"
@@ -394,13 +394,13 @@ autoprefixer@^6.3.1:
 
 aws-appsync-react@^1.0.6:
   version "1.0.6"
-  resolved "http://localhost:4873/aws-appsync-react/-/aws-appsync-react-1.0.6.tgz#6b90ceb7eeefd54deb9995137934104ef60ee191"
+  resolved "http://registry.npmjs.org/aws-appsync-react/-/aws-appsync-react-1.0.6.tgz#6b90ceb7eeefd54deb9995137934104ef60ee191"
   dependencies:
     prop-types "^15.6.0"
 
 aws-appsync@^1.0.12:
   version "1.0.12"
-  resolved "http://localhost:4873/aws-appsync/-/aws-appsync-1.0.12.tgz#1ae6d491820d4df3a9e64f6259ae00cc62c4fda7"
+  resolved "http://registry.npmjs.org/aws-appsync/-/aws-appsync-1.0.12.tgz#1ae6d491820d4df3a9e64f6259ae00cc62c4fda7"
   dependencies:
     "@redux-offline/redux-offline" "^2.2.1"
     apollo-cache-inmemory "^1.0.0"
@@ -418,7 +418,7 @@ aws-appsync@^1.0.12:
 
 aws-sdk@^2.139.0:
   version "2.204.0"
-  resolved "http://localhost:4873/aws-sdk/-/aws-sdk-2.204.0.tgz#72d8331e90e7792b04dcca3278a7b31c49a46aeb"
+  resolved "http://registry.npmjs.org/aws-sdk/-/aws-sdk-2.204.0.tgz#72d8331e90e7792b04dcca3278a7b31c49a46aeb"
   dependencies:
     buffer "4.9.1"
     events "^1.1.1"
@@ -1517,7 +1517,7 @@ code-point-at@^1.0.0:
 
 coffee-script@>=1.0.1:
   version "1.12.7"
-  resolved "http://localhost:4873/coffee-script/-/coffee-script-1.12.7.tgz#c05dae0cb79591d05b3070a8433a98c9a89ccc53"
+  resolved "http://registry.npmjs.org/coffee-script/-/coffee-script-1.12.7.tgz#c05dae0cb79591d05b3070a8433a98c9a89ccc53"
 
 color-convert@^1.3.0, color-convert@^1.9.0:
   version "1.9.1"
@@ -2662,7 +2662,7 @@ fileset@^2.0.2:
 
 fileset@~0.1.5:
   version "0.1.8"
-  resolved "http://localhost:4873/fileset/-/fileset-0.1.8.tgz#506b91a9396eaa7e32fb42a84077c7a0c736b741"
+  resolved "http://registry.npmjs.org/fileset/-/fileset-0.1.8.tgz#506b91a9396eaa7e32fb42a84077c7a0c736b741"
   dependencies:
     glob "3.x"
     minimatch "0.x"
@@ -2850,7 +2850,7 @@ gauge@~2.7.3:
 
 gaze@~0.3.2:
   version "0.3.4"
-  resolved "http://localhost:4873/gaze/-/gaze-0.3.4.tgz#5f94bdda0afe53bc710969bcd6f282548d60c279"
+  resolved "http://registry.npmjs.org/gaze/-/gaze-0.3.4.tgz#5f94bdda0afe53bc710969bcd6f282548d60c279"
   dependencies:
     fileset "~0.1.5"
     minimatch "~0.2.9"
@@ -2888,7 +2888,7 @@ glob-parent@^2.0.0:
 
 glob@3.x:
   version "3.2.11"
-  resolved "http://localhost:4873/glob/-/glob-3.2.11.tgz#4a973f635b9190f715d10987d5c00fd2815ebe3d"
+  resolved "http://registry.npmjs.org/glob/-/glob-3.2.11.tgz#4a973f635b9190f715d10987d5c00fd2815ebe3d"
   dependencies:
     inherits "2"
     minimatch "0.3"
@@ -2973,7 +2973,7 @@ graceful-fs@^4.1.11, graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.1.9:
 
 graphql-anywhere@^4.1.5:
   version "4.1.5"
-  resolved "http://localhost:4873/graphql-anywhere/-/graphql-anywhere-4.1.5.tgz#552ccd27b79a13a899022e20f658a2c2cb75e251"
+  resolved "http://registry.npmjs.org/graphql-anywhere/-/graphql-anywhere-4.1.5.tgz#552ccd27b79a13a899022e20f658a2c2cb75e251"
   dependencies:
     apollo-utilities "^1.0.8"
 
@@ -2989,7 +2989,7 @@ graphql@^0.11.7:
 
 growl@~1.7.0:
   version "1.7.0"
-  resolved "http://localhost:4873/growl/-/growl-1.7.0.tgz#de2d66136d002e112ba70f3f10c31cf7c350b2da"
+  resolved "http://registry.npmjs.org/growl/-/growl-1.7.0.tgz#de2d66136d002e112ba70f3f10c31cf7c350b2da"
 
 growly@^1.3.0:
   version "1.3.0"
@@ -3668,13 +3668,13 @@ iterall@1.1.3:
 
 jasmine-growl-reporter@~0.0.2:
   version "0.0.3"
-  resolved "http://localhost:4873/jasmine-growl-reporter/-/jasmine-growl-reporter-0.0.3.tgz#b87ae551e359d28ad5217765eaef6c07b763f6c8"
+  resolved "http://registry.npmjs.org/jasmine-growl-reporter/-/jasmine-growl-reporter-0.0.3.tgz#b87ae551e359d28ad5217765eaef6c07b763f6c8"
   dependencies:
     growl "~1.7.0"
 
 jasmine-node@1.11.x:
   version "1.11.0"
-  resolved "http://localhost:4873/jasmine-node/-/jasmine-node-1.11.0.tgz#c967e47710398172092b8493f425248ea9a69fa6"
+  resolved "http://registry.npmjs.org/jasmine-node/-/jasmine-node-1.11.0.tgz#c967e47710398172092b8493f425248ea9a69fa6"
   dependencies:
     coffee-script ">=1.0.1"
     gaze "~0.3.2"
@@ -3687,7 +3687,7 @@ jasmine-node@1.11.x:
 
 jasmine-reporters@>=0.2.0:
   version "2.3.0"
-  resolved "http://localhost:4873/jasmine-reporters/-/jasmine-reporters-2.3.0.tgz#eb8cb7359658572a87eef4aa088a363036f3792a"
+  resolved "http://registry.npmjs.org/jasmine-reporters/-/jasmine-reporters-2.3.0.tgz#eb8cb7359658572a87eef4aa088a363036f3792a"
   dependencies:
     mkdirp "^0.5.1"
     xmldom "^0.1.22"
@@ -3905,7 +3905,7 @@ jest@20.0.4:
 
 jmespath@0.15.0:
   version "0.15.0"
-  resolved "http://localhost:4873/jmespath/-/jmespath-0.15.0.tgz#a3f222a9aae9f966f5d27c796510e28091764217"
+  resolved "http://registry.npmjs.org/jmespath/-/jmespath-0.15.0.tgz#a3f222a9aae9f966f5d27c796510e28091764217"
 
 jquery@x.*:
   version "3.2.1"
@@ -4143,7 +4143,7 @@ locate-path@^2.0.0:
 
 lodash-es@^4.17.4, lodash-es@^4.2.1:
   version "4.17.5"
-  resolved "http://localhost:4873/lodash-es/-/lodash-es-4.17.5.tgz#9fc6e737b1c4d151d8f9cae2247305d552ce748f"
+  resolved "http://registry.npmjs.org/lodash-es/-/lodash-es-4.17.5.tgz#9fc6e737b1c4d151d8f9cae2247305d552ce748f"
 
 lodash._reinterpolate@~3.0.0:
   version "3.0.0"
@@ -4225,7 +4225,7 @@ lowercase-keys@^1.0.0:
 
 lru-cache@2:
   version "2.7.3"
-  resolved "http://localhost:4873/lru-cache/-/lru-cache-2.7.3.tgz#6d4524e8b955f95d4f5b58851ce21dd72fb4e952"
+  resolved "http://registry.npmjs.org/lru-cache/-/lru-cache-2.7.3.tgz#6d4524e8b955f95d4f5b58851ce21dd72fb4e952"
 
 lru-cache@^4.0.1:
   version "4.1.1"
@@ -4376,14 +4376,14 @@ minimalistic-crypto-utils@^1.0.0, minimalistic-crypto-utils@^1.0.1:
 
 minimatch@0.3:
   version "0.3.0"
-  resolved "http://localhost:4873/minimatch/-/minimatch-0.3.0.tgz#275d8edaac4f1bb3326472089e7949c8394699dd"
+  resolved "http://registry.npmjs.org/minimatch/-/minimatch-0.3.0.tgz#275d8edaac4f1bb3326472089e7949c8394699dd"
   dependencies:
     lru-cache "2"
     sigmund "~1.0.0"
 
 minimatch@0.x, minimatch@~0.2.9:
   version "0.2.14"
-  resolved "http://localhost:4873/minimatch/-/minimatch-0.2.14.tgz#c74e780574f63c6f9a090e90efbe6ef53a6a756a"
+  resolved "http://registry.npmjs.org/minimatch/-/minimatch-0.2.14.tgz#c74e780574f63c6f9a090e90efbe6ef53a6a756a"
   dependencies:
     lru-cache "2"
     sigmund "~1.0.0"
@@ -4416,7 +4416,7 @@ mkdirp@0.5.1, mkdirp@0.5.x, "mkdirp@>=0.5 0", mkdirp@^0.5.0, mkdirp@^0.5.1, mkdi
 
 mkdirp@~0.3.5:
   version "0.3.5"
-  resolved "http://localhost:4873/mkdirp/-/mkdirp-0.3.5.tgz#de3e5f8961c88c787ee1368df849ac4413eca8d7"
+  resolved "http://registry.npmjs.org/mkdirp/-/mkdirp-0.3.5.tgz#de3e5f8961c88c787ee1368df849ac4413eca8d7"
 
 moment@^2.19.1, moment@^2.19.2:
   version "2.19.2"
@@ -4510,7 +4510,7 @@ node-libs-browser@^2.0.0:
 
 node-localstorage@0.x.x:
   version "0.6.0"
-  resolved "http://localhost:4873/node-localstorage/-/node-localstorage-0.6.0.tgz#45a0601c6932dfde6644a23361f1be173c75d3af"
+  resolved "http://registry.npmjs.org/node-localstorage/-/node-localstorage-0.6.0.tgz#45a0601c6932dfde6644a23361f1be173c75d3af"
 
 node-notifier@^5.0.2:
   version "5.1.2"
@@ -4750,7 +4750,7 @@ package-json@^2.0.0:
 
 paho-client@^1.0.1:
   version "1.0.1"
-  resolved "http://localhost:4873/paho-client/-/paho-client-1.0.1.tgz#c990ecde81d1028437cb6e3bb385de00180d49d8"
+  resolved "http://registry.npmjs.org/paho-client/-/paho-client-1.0.1.tgz#c990ecde81d1028437cb6e3bb385de00180d49d8"
   dependencies:
     jasmine-node "1.11.x"
     node-localstorage "0.x.x"
@@ -5653,7 +5653,7 @@ reduce-function-call@^1.0.1:
 
 redux-persist@^4.5.0:
   version "4.10.2"
-  resolved "http://localhost:4873/redux-persist/-/redux-persist-4.10.2.tgz#8efdb16cfe882c521a78a6d0bfdfef2437f49f96"
+  resolved "http://registry.npmjs.org/redux-persist/-/redux-persist-4.10.2.tgz#8efdb16cfe882c521a78a6d0bfdfef2437f49f96"
   dependencies:
     json-stringify-safe "^5.0.1"
     lodash "^4.17.4"
@@ -5661,11 +5661,11 @@ redux-persist@^4.5.0:
 
 redux-thunk@^2.2.0:
   version "2.2.0"
-  resolved "http://localhost:4873/redux-thunk/-/redux-thunk-2.2.0.tgz#e615a16e16b47a19a515766133d1e3e99b7852e5"
+  resolved "http://registry.npmjs.org/redux-thunk/-/redux-thunk-2.2.0.tgz#e615a16e16b47a19a515766133d1e3e99b7852e5"
 
 redux@^3.7.2:
   version "3.7.2"
-  resolved "http://localhost:4873/redux/-/redux-3.7.2.tgz#06b73123215901d25d065be342eb026bc1c8537b"
+  resolved "http://registry.npmjs.org/redux/-/redux-3.7.2.tgz#06b73123215901d25d065be342eb026bc1c8537b"
   dependencies:
     lodash "^4.2.1"
     lodash-es "^4.2.1"
@@ -5840,7 +5840,7 @@ require-uncached@^1.0.3:
 
 requirejs@>=0.27.1:
   version "2.3.5"
-  resolved "http://localhost:4873/requirejs/-/requirejs-2.3.5.tgz#617b9acbbcb336540ef4914d790323a8d4b861b0"
+  resolved "http://registry.npmjs.org/requirejs/-/requirejs-2.3.5.tgz#617b9acbbcb336540ef4914d790323a8d4b861b0"
 
 requires-port@1.0.x, requires-port@1.x.x, requires-port@~1.0.0:
   version "1.0.0"
@@ -6074,7 +6074,7 @@ shellwords@^0.1.0:
 
 sigmund@~1.0.0:
   version "1.0.1"
-  resolved "http://localhost:4873/sigmund/-/sigmund-1.0.1.tgz#3ff21f198cad2175f9f3b781853fd94d0d19b590"
+  resolved "http://registry.npmjs.org/sigmund/-/sigmund-1.0.1.tgz#3ff21f198cad2175f9f3b781853fd94d0d19b590"
 
 signal-exit@^3.0.0, signal-exit@^3.0.2:
   version "3.0.2"
@@ -6378,7 +6378,7 @@ sw-toolbox@^3.4.0:
 
 symbol-observable@^1.0.2, symbol-observable@^1.0.3:
   version "1.2.0"
-  resolved "http://localhost:4873/symbol-observable/-/symbol-observable-1.2.0.tgz#c22688aed4eab3cdc2dfeacbb561660560a00804"
+  resolved "http://registry.npmjs.org/symbol-observable/-/symbol-observable-1.2.0.tgz#c22688aed4eab3cdc2dfeacbb561660560a00804"
 
 symbol-tree@^3.2.1:
   version "3.2.2"
@@ -6539,7 +6539,7 @@ type-is@~1.6.15:
 
 typedarray-to-buffer@^3.1.2:
   version "3.1.2"
-  resolved "http://localhost:4873/typedarray-to-buffer/-/typedarray-to-buffer-3.1.2.tgz#1017b32d984ff556eba100f501589aba1ace2e04"
+  resolved "http://registry.npmjs.org/typedarray-to-buffer/-/typedarray-to-buffer-3.1.2.tgz#1017b32d984ff556eba100f501589aba1ace2e04"
   dependencies:
     is-typedarray "^1.0.0"
 
@@ -6585,7 +6585,7 @@ uid-number@^0.0.6:
 
 "underscore@>= 1.3.1":
   version "1.8.3"
-  resolved "http://localhost:4873/underscore/-/underscore-1.8.3.tgz#4f3fb53b106e6097fcf9cb4109f2a5e9bdfa5022"
+  resolved "http://registry.npmjs.org/underscore/-/underscore-1.8.3.tgz#4f3fb53b106e6097fcf9cb4109f2a5e9bdfa5022"
 
 uniq@^1.0.1:
   version "1.0.1"
@@ -6664,7 +6664,7 @@ url-parse@^1.1.8:
 
 url@0.10.3:
   version "0.10.3"
-  resolved "http://localhost:4873/url/-/url-0.10.3.tgz#021e4d9c7705f21bbf37d03ceb58767402774c64"
+  resolved "http://registry.npmjs.org/url/-/url-0.10.3.tgz#021e4d9c7705f21bbf37d03ceb58767402774c64"
   dependencies:
     punycode "1.3.2"
     querystring "0.2.0"
@@ -6745,7 +6745,7 @@ vm-browserify@0.0.4:
 
 "walkdir@>= 0.0.1":
   version "0.0.12"
-  resolved "http://localhost:4873/walkdir/-/walkdir-0.0.12.tgz#2f24f1ade64aab1e458591d4442c8868356e9281"
+  resolved "http://registry.npmjs.org/walkdir/-/walkdir-0.0.12.tgz#2f24f1ade64aab1e458591d4442c8868356e9281"
 
 walker@~1.0.5:
   version "1.0.7"
@@ -6881,7 +6881,7 @@ websocket-extensions@>=0.1.1:
 
 websocket@1.x.x:
   version "1.0.25"
-  resolved "http://localhost:4873/websocket/-/websocket-1.0.25.tgz#998ec790f0a3eacb8b08b50a4350026692a11958"
+  resolved "http://registry.npmjs.org/websocket/-/websocket-1.0.25.tgz#998ec790f0a3eacb8b08b50a4350026692a11958"
   dependencies:
     debug "^2.2.0"
     nan "^2.3.3"
@@ -6999,20 +6999,20 @@ xml-name-validator@^2.0.1:
 
 xml2js@0.4.17:
   version "0.4.17"
-  resolved "http://localhost:4873/xml2js/-/xml2js-0.4.17.tgz#17be93eaae3f3b779359c795b419705a8817e868"
+  resolved "http://registry.npmjs.org/xml2js/-/xml2js-0.4.17.tgz#17be93eaae3f3b779359c795b419705a8817e868"
   dependencies:
     sax ">=0.6.0"
     xmlbuilder "^4.1.0"
 
 xmlbuilder@4.2.1, xmlbuilder@^4.1.0:
   version "4.2.1"
-  resolved "http://localhost:4873/xmlbuilder/-/xmlbuilder-4.2.1.tgz#aa58a3041a066f90eaa16c2f5389ff19f3f461a5"
+  resolved "http://registry.npmjs.org/xmlbuilder/-/xmlbuilder-4.2.1.tgz#aa58a3041a066f90eaa16c2f5389ff19f3f461a5"
   dependencies:
     lodash "^4.0.0"
 
 xmldom@^0.1.22:
   version "0.1.27"
-  resolved "http://localhost:4873/xmldom/-/xmldom-0.1.27.tgz#d501f97b3bdb403af8ef9ecc20573187aadac0e9"
+  resolved "http://registry.npmjs.org/xmldom/-/xmldom-0.1.27.tgz#d501f97b3bdb403af8ef9ecc20573187aadac0e9"
 
 xtend@^4.0.0, xtend@^4.0.1:
   version "4.0.1"
@@ -7024,7 +7024,7 @@ y18n@^3.2.1:
 
 yaeti@^0.0.6:
   version "0.0.6"
-  resolved "http://localhost:4873/yaeti/-/yaeti-0.0.6.tgz#f26f484d72684cf42bedfb76970aa1608fbf9577"
+  resolved "http://registry.npmjs.org/yaeti/-/yaeti-0.0.6.tgz#f26f484d72684cf42bedfb76970aa1608fbf9577"
 
 yallist@^2.1.2:
   version "2.1.2"
@@ -7113,7 +7113,7 @@ yargs@~3.10.0:
 
 zen-observable-ts@^0.8.6:
   version "0.8.8"
-  resolved "http://localhost:4873/zen-observable-ts/-/zen-observable-ts-0.8.8.tgz#1a586dc204fa5632a88057f879500e0d2ba06869"
+  resolved "http://registry.npmjs.org/zen-observable-ts/-/zen-observable-ts-0.8.8.tgz#1a586dc204fa5632a88057f879500e0d2ba06869"
   dependencies:
     zen-observable "^0.7.0"
 
@@ -7123,4 +7123,4 @@ zen-observable@^0.6.0:
 
 zen-observable@^0.7.0:
   version "0.7.1"
-  resolved "http://localhost:4873/zen-observable/-/zen-observable-0.7.1.tgz#f84075c0ee085594d3566e1d6454207f126411b3"
+  resolved "http://registry.npmjs.org/zen-observable/-/zen-observable-0.7.1.tgz#f84075c0ee085594d3566e1d6454207f126411b3"
