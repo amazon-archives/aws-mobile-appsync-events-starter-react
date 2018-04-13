@@ -86,7 +86,10 @@ export default compose(
                     const query = QueryAllEvents;
                     const data = proxy.readQuery({ query });
 
-                    data.listEvents.items = data.listEvents.items.filter(event => event.id !== deleteEvent.id);
+                    const index = data.listEvents.items.findIndex(event => event.id === deleteEvent.id)
+                    if (index > -1) {
+                        data.listEvents.items.splice(index, 1)
+                    }
 
                     proxy.writeQuery({ query, data });
                 }

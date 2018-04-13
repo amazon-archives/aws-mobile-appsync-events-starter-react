@@ -68,16 +68,7 @@ const NewCommentWithData = graphql(
                 const variables = { id: props.eventId };
                 const data = proxy.readQuery({ query, variables });
 
-                data.getEvent = {
-                    ...data.getEvent,
-                    comments: {
-                        ...data.getEvent.comments,
-                        items: [
-                            ...data.getEvent.comments.items.filter(c => c.commentId !== commentOnEvent.commentId),
-                            commentOnEvent,
-                        ]
-                    }
-                };
+                data.getEvent.comments.items.push(commentOnEvent);
 
                 proxy.writeQuery({ query, data });
             },
