@@ -67,6 +67,12 @@ const EventCommentsWithData = graphql(
                     eventId: props.ownProps.eventId,
                 },
                 updateQuery: (prev, { subscriptionData: { data: { subscribeToEventComments } } }) => {
+                    //skip the update if the comment exists.
+                    //This can happen when the `createComment` Mutation updates the query
+                    if (prev.getEvent.comments.items.some(c => c.commentId === subscribeToEventComments.commentId)) {
+                        return prev;
+                    }
+
                     const res = {
                         ...prev,
                         ...{
@@ -75,13 +81,7 @@ const EventCommentsWithData = graphql(
                                 comments: {
                                     __typename: 'CommentConnections',
                                     items: [
-                                        ...prev.getEvent.comments.items.filter(c => {
-                                            return (
-                                                c.content !== subscribeToEventComments.content &&
-                                                c.createdAt !== subscribeToEventComments.createdAt &&
-                                                c.commentId !== subscribeToEventComments.commentId
-                                            );
-                                        }),
+                                        ...prev.getEvent.comments.items,
                                         subscribeToEventComments,
                                     ]
                                 }

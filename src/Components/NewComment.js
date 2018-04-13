@@ -68,7 +68,10 @@ const NewCommentWithData = graphql(
                 const variables = { id: props.eventId };
                 const data = proxy.readQuery({ query, variables });
 
-                data.getEvent.comments.items.push(commentOnEvent);
+                //don't add an existing comment (can happen when the comments subscription updates the query)
+                if (!data.getEvent.comments.items.some(c => c.commentId === commentOnEvent.commentId)) {
+                    data.getEvent.comments.items.push(commentOnEvent);
+                }
 
                 proxy.writeQuery({ query, data });
             },
