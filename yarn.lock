@@ -163,15 +163,21 @@ apollo-cache@^1.1.4:
   dependencies:
     apollo-utilities "^1.0.8"
 
-apollo-client@^2.2.1:
-  version "2.2.5"
-  resolved "http://registry.npmjs.org/apollo-client/-/apollo-client-2.2.5.tgz#bc00704aa181d0ec299fd5bb2b72d0b44800f5d0"
+apollo-cache@^1.1.5:
+  version "1.1.8"
+  resolved "https://registry.yarnpkg.com/apollo-cache/-/apollo-cache-1.1.8.tgz#b078d33dec876d52b5a81a325d3c254d4e362d3c"
+  dependencies:
+    apollo-utilities "^1.0.12"
+
+apollo-client@2.2.6:
+  version "2.2.6"
+  resolved "https://registry.yarnpkg.com/apollo-client/-/apollo-client-2.2.6.tgz#38b5a197976f3c22b63623c455d4c4606e420b66"
   dependencies:
     "@types/zen-observable" "^0.5.3"
-    apollo-cache "^1.1.4"
+    apollo-cache "^1.1.5"
     apollo-link "^1.0.0"
     apollo-link-dedup "^1.0.0"
-    apollo-utilities "^1.0.8"
+    apollo-utilities "^1.0.9"
     symbol-observable "^1.0.2"
     zen-observable "^0.7.0"
   optionalDependencies:
@@ -221,6 +227,10 @@ apollo-link@^1.2.1:
 apollo-utilities@^1.0.0:
   version "1.0.2"
   resolved "https://registry.npmjs.org/apollo-utilities/-/apollo-utilities-1.0.2.tgz#bcf348a7e613e82e2624ddb5be2b9f6bf1259c6d"
+
+apollo-utilities@^1.0.12, apollo-utilities@^1.0.9:
+  version "1.0.12"
+  resolved "https://registry.yarnpkg.com/apollo-utilities/-/apollo-utilities-1.0.12.tgz#9e2b2a34cf89f3bf0d73a664effd8c1bb5d1b7f7"
 
 apollo-utilities@^1.0.8:
   version "1.0.8"
@@ -392,19 +402,20 @@ autoprefixer@^6.3.1:
     postcss "^5.2.16"
     postcss-value-parser "^3.2.3"
 
-aws-appsync-react@^1.0.6:
-  version "1.0.6"
-  resolved "http://registry.npmjs.org/aws-appsync-react/-/aws-appsync-react-1.0.6.tgz#6b90ceb7eeefd54deb9995137934104ef60ee191"
+aws-appsync-react@^1.0.12:
+  version "1.0.12"
+  resolved "https://registry.yarnpkg.com/aws-appsync-react/-/aws-appsync-react-1.0.12.tgz#0d64c3faa2f0ac8a77350544b9e95f3053a333dc"
   dependencies:
+    aws-appsync "^1.0.21"
     prop-types "^15.6.0"
 
-aws-appsync@^1.0.12:
-  version "1.0.12"
-  resolved "http://registry.npmjs.org/aws-appsync/-/aws-appsync-1.0.12.tgz#1ae6d491820d4df3a9e64f6259ae00cc62c4fda7"
+aws-appsync@^1.0.21:
+  version "1.0.21"
+  resolved "https://registry.yarnpkg.com/aws-appsync/-/aws-appsync-1.0.21.tgz#18924ccbf9d4eb47ee7256104f436637c69c8cc7"
   dependencies:
     "@redux-offline/redux-offline" "^2.2.1"
     apollo-cache-inmemory "^1.0.0"
-    apollo-client "^2.2.1"
+    apollo-client "2.2.6"
     apollo-link "^1.0.0"
     apollo-link-context "^1.0.0"
     apollo-link-http "^1.0.0"

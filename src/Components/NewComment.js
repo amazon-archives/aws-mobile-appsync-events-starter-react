@@ -65,7 +65,7 @@ const NewCommentWithData = graphql(
         options: props => ({
             update: (proxy, { data: { commentOnEvent } }) => {
                 const query = QueryGetEvent;
-                const variables = { id: props.eventId };
+                const variables = { id: commentOnEvent.eventId };
                 const data = proxy.readQuery({ query, variables });
 
                 data.getEvent = {

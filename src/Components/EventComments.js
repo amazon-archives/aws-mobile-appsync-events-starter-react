@@ -69,24 +69,17 @@ const EventCommentsWithData = graphql(
                 updateQuery: (prev, { subscriptionData: { data: { subscribeToEventComments } } }) => {
                     const res = {
                         ...prev,
-                        ...{
-                            getEvent: {
-                                ...prev.getEvent,
-                                comments: {
-                                    __typename: 'CommentConnections',
-                                    items: [
-                                        ...prev.getEvent.comments.items.filter(c => {
-                                            return (
-                                                c.content !== subscribeToEventComments.content &&
-                                                c.createdAt !== subscribeToEventComments.createdAt &&
-                                                c.commentId !== subscribeToEventComments.commentId
-                                            );
-                                        }),
-                                        subscribeToEventComments,
-                                    ]
-                                }
+                        getEvent: {
+                            ...prev.getEvent,
+                            comments: {
+                                __typename: 'CommentConnections',
+                                ...prev.getEvent.comments,
+                                items: [
+                                    ...prev.getEvent.comments.items.filter(c => c.commentId !== subscribeToEventComments.commentId),
+                                    subscribeToEventComments,
+                                ]
                             }
-                        },
+                        }
                     };
 
                     return res;

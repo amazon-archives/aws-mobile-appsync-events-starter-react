@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { v4 as uuid } from "uuid";
 import { graphql } from "react-apollo";
 import QueryAllEvents from "../GraphQL/QueryAllEvents";
+import QueryGetEvent from "../GraphQL/QueryGetEvent";
 import MutationCreateEvent from "../GraphQL/MutationCreateEvent";
 
 import DatePicker from 'react-datepicker';
@@ -46,7 +47,7 @@ class NewEvent extends Component {
         const { createEvent, history } = this.props;
         const { event } = this.state;
 
-        await createEvent(event);
+        await createEvent({ ...event, id: uuid() });
 
         history.push('/');
     }
@@ -104,20 +105,25 @@ class NewEvent extends Component {
 export default graphql(
     MutationCreateEvent,
     {
-        options: {
-            refetchQueries: [{ query: QueryAllEvents }],
-            update: (proxy, { data: { createEvent } }) => {
-                const query = QueryAllEvents;
-                const data = proxy.readQuery({ query });
-
-                data.listEvents.items = [...data.listEvents.items.filter(e => e.id !== createEvent.id), createEvent];
-
-                proxy.writeQuery({ query, data });
-            }
-        },
         props: (props) => ({
             createEvent: (event) => {
                 return props.mutate({
+                    update: (proxy, { data: { createEvent } }) => {
+                        // Update QueryAllEvents
+                        const query = QueryAllEvents;
+                        const data = proxy.readQuery({ query });
+
+                        data.listEvents.items = [...data.listEvents.items.filter(e => e.id !== createEvent.id), createEvent];
+
+                        proxy.writeQuery({ query, data });
+
+                        // Create cache entry for QueryGetEvent
+                        const query2 = QueryGetEvent;
+                        const variables = { id: createEvent.id };
+                        const data2 = { getEvent: { ...createEvent } };
+
+                        proxy.writeQuery({ query: query2, variables, data: data2 });
+                    },
                     variables: event,
                     optimisticResponse: () => ({
                         createEvent: {

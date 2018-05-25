@@ -81,7 +81,6 @@ export default compose(
         MutationDeleteEvent,
         {
             options: {
-                refetchQueries: [{ query: QueryAllEvents }],
                 update: (proxy, { data: { deleteEvent } }) => {
                     const query = QueryAllEvents;
                     const data = proxy.readQuery({ query });
