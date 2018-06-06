@@ -60,7 +60,7 @@ const EventCommentsWithData = graphql(
             variables: { id }
         }),
         props: props => ({
-            comments: props.data.getEvent.comments,
+            comments: props.data.getEvent ? props.data.getEvent.comments : { items: [] },
             subscribeToComments: () => props.data.subscribeToMore({
                 document: SubsriptionEventComments,
                 variables: {

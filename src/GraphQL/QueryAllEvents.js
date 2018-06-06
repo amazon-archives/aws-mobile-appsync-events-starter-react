@@ -2,7 +2,7 @@ import gql from "graphql-tag";
 
 export default gql(`
 query {
-  listEvents {
+  listEvents(limit: 1000) {
     items {
       id
       name

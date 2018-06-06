@@ -47,7 +47,7 @@ class NewEvent extends Component {
         const { createEvent, history } = this.props;
         const { event } = this.state;
 
-        await createEvent({ ...event, id: uuid() });
+        await createEvent({ ...event });
 
         history.push('/');
     }
