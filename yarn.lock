@@ -421,16 +421,16 @@ autoprefixer@^6.3.1:
     postcss "^5.2.16"
     postcss-value-parser "^3.2.3"
 
-aws-appsync-react@^1.0.16:
-  version "1.0.16"
-  resolved "https://registry.yarnpkg.com/aws-appsync-react/-/aws-appsync-react-1.0.16.tgz#bc2df1e83087de44d0fc13e02b1ac8acfdddb542"
+aws-appsync-react@^1.0.17:
+  version "1.0.17"
+  resolved "https://registry.yarnpkg.com/aws-appsync-react/-/aws-appsync-react-1.0.17.tgz#9f9383328ca9ff099986962d3e378a256e877b68"
   dependencies:
-    aws-appsync "^1.1.1"
+    aws-appsync "^1.1.2"
     prop-types "^15.6.0"
 
-aws-appsync@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/aws-appsync/-/aws-appsync-1.1.1.tgz#04e163a254363ff5b6d82f7a8e0e12f189a9f39e"
+aws-appsync@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/aws-appsync/-/aws-appsync-1.1.2.tgz#b2a3a3948dd459fa0c36d9b1b3d55a0ddb19d362"
   dependencies:
     "@redux-offline/redux-offline" "^2.2.1"
     apollo-cache-inmemory "^1.0.0"
