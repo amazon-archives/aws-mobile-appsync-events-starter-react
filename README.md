@@ -25,7 +25,7 @@ This is a Starter React application for using the Sample app in the AWS AppSync 
 
 1. Navigate to the AWS AppSync console using the URL: http://console.aws.amazon.com/appsync/home
 
-2. Click on `Create API` and select the `Sample Schema` option. Enter a API name of your choice. Click `Create`.
+2. Click on `Create API` and select the `Event App` option. Enter a API name of your choice. Click `Create`.
 
 
 ## React Setup
@@ -39,7 +39,7 @@ cd ./aws-mobile-appsync-events-starter-react
 
 From the homepage of your GraphQL API (you can click the name you entered in the left hand navigation) wait until the progress bar at the top has completed deploying your resources.
 
-On this same page, select `Web` at the bottom to download your `AppSync.js` configuration file into your project's `./src` directory.
+On this same page, select `Web (React)` at the bottom to download your `AppSync.js` configuration file into your project's `./src` directory.
 
 or create `AppSync.js` with the following content.
 
