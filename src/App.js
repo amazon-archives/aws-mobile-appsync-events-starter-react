@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import "semantic-ui-css/semantic.min.css";
 import 'react-datepicker/dist/react-datepicker.css';
 
-import appSyncConfig from "./AppSync";
+import appSyncConfig from "./aws-exports";
 import { ApolloProvider } from "react-apollo";
 import AWSAppSyncClient, { defaultDataIdFromObject } from "aws-appsync";
 import { Rehydrated } from "aws-appsync-react";
@@ -30,11 +30,11 @@ const App = () => (
 );
 
 const client = new AWSAppSyncClient({
-  url: appSyncConfig.graphqlEndpoint,
-  region: appSyncConfig.region,
+  url: appSyncConfig.aws_appsync_graphqlEndpoint,
+  region: appSyncConfig.aws_appsync_region,
   auth: {
-    type: appSyncConfig.authenticationType,
-    apiKey: appSyncConfig.apiKey,
+    type: appSyncConfig.aws_appsync_authenticationType,
+    apiKey: appSyncConfig.aws_appsync_apiKey,
   },
   cacheOptions: {
     dataIdFromObject: (obj) => {
