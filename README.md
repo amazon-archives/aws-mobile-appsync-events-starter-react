@@ -25,7 +25,7 @@ This is a Starter React application for using the Sample app in the AWS AppSync 
 
 1. Navigate to the AWS AppSync console using the URL: http://console.aws.amazon.com/appsync/home
 
-2. Click on `Create API` and select the `Sample Schema` option. Enter a API name of your choice. Click `Create`.
+2. Click on `Create API` and select the `Event App` under the `sample project` in the bottom pane, and select `Start`. Enter a API name of your choice. Click `Create`.
 
 
 ## React Setup
@@ -37,22 +37,9 @@ git clone https://github.com/aws-samples/aws-mobile-appsync-events-starter-react
 cd ./aws-mobile-appsync-events-starter-react
 ```
 
-From the homepage of your GraphQL API (you can click the name you entered in the left hand navigation) wait until the progress bar at the top has completed deploying your resources.
+Wait until the progress bar at the top has completed deploying your resources. Then from the integration page of your GraphQL API (you can click the name you entered in the left hand navigation). 
 
-On this same page, select `Web` at the bottom to download your `AppSync.js` configuration file into your project's `./src` directory.
-
-or create `AppSync.js` with the following content.
-
-```
-const config = {
-  graphqlEndpoint: 'https://XXXXXXXXXXXXXXXXXXXXXXXXXX.appsync-api.XX-XXXX-X.amazonaws.com/graphql', // Your hostname
-  region: 'XX-XXXX-X',  //Your region
-  authenticationType: 'XXX_XXX', // API_KEY or AWS_IAM or AMAZON_COGNITO_USER_POOLS
-  apiKey: 'XXX-XXXXXXXXXXXXXXXXXXXXXX',
-}
-export default config;
-```
-You can get the `graphqlEndpoint`, `authenticationType` and `apiKey` from the settings page.
+On this same page, select `JavaScript` at the bottom to download your `aws-exports.js` configuration file by clicking the **Download Config** button. Replace the `aws-exports.js` file in the root of your app with the file you just downloaded.
 
 Start the application:
 
