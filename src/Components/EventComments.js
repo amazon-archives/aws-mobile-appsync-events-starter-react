@@ -4,7 +4,7 @@ import { graphql } from "react-apollo";
 import moment from 'moment';
 
 import QueryGetEvent from "../GraphQL/QueryGetEvent";
-import SubsriptionEventComments from "../GraphQL/SubsriptionEventComments";
+import SubscriptionEventComments from "../GraphQL/SubscriptionEventComments";
 
 import NewComment from "./NewComment";
 
@@ -62,7 +62,7 @@ const EventCommentsWithData = graphql(
         props: props => ({
             comments: props.data.getEvent ? props.data.getEvent.comments : { items: [] },
             subscribeToComments: () => props.data.subscribeToMore({
-                document: SubsriptionEventComments,
+                document: SubscriptionEventComments,
                 variables: {
                     eventId: props.ownProps.eventId,
                 },
