@@ -5,5 +5,7 @@ subscription($eventId: String!) {
   subscribeToEventComments(eventId: $eventId) {
     eventId
     commentId
+    content
+    createdAt
   }
 }`);

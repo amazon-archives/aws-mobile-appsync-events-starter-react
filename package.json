@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "aws-appsync": "^1.2.1",
-    "aws-appsync-react": "^1.0.21",
+    "aws-appsync": "^3.0.1",
+    "aws-appsync-react": "^3.0.1",
     "graphql": "^0.11.7",
     "graphql-tag": "^2.5.0",
     "moment": "^2.19.2",
@@ -13,7 +13,7 @@
     "react-datepicker": "^0.61.0",
     "react-dom": "^16.4.2",
     "react-router-dom": "^4.2.2",
-    "react-scripts": "1.0.17",
+    "react-scripts": "^3.4.0",
     "semantic-ui-css": "^2.2.12",
     "uuid": "^3.1.0"
   },
@@ -22,5 +22,17 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
