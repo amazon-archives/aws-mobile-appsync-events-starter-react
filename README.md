@@ -44,8 +44,8 @@ On this same page, select `JavaScript` at the bottom to download your `aws-expor
 Start the application:
 
 ```
-yarn
-yarn start
+npm
+npm run start
 ```
 
 ## Application Walkthrough
