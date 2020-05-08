@@ -41,10 +41,13 @@ Wait until the progress bar at the top has completed deploying your resources. T
 
 On this same page, select `JavaScript` at the bottom to download your `aws-exports.js` configuration file by clicking the **Download Config** button. Replace the `aws-exports.js` file in the root of your app with the file you just downloaded.
 
-Start the application:
-
+Install dependencies
 ```
-npm
+npm install
+```
+
+Start the application:
+```
 npm run start
 ```
 
